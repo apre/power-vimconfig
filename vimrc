@@ -57,7 +57,7 @@ if exists('&colorcolumn')
 endif
 
 :match ErrorMsg '\%>80v.\+'
-
+set number
 command HighLightEol match ErrorMsg '\%>80v.\+'
 command UnHighlightEol match ErrorMsg //
 
