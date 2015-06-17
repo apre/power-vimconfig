@@ -57,4 +57,8 @@ endif
 
 :match ErrorMsg '\%>80v.\+'
 
+command HighLightEol match ErrorMsg '\%>80v.\+'
+command UnHighlightEol match ErrorMsg //
+
+
 
