@@ -1,5 +1,6 @@
 set nocompatible
 
+set encoding=utf-8
 " Pathogen
 call pathogen#infect()
 call pathogen#helptags()
@@ -59,6 +60,5 @@ endif
 
 command HighLightEol match ErrorMsg '\%>80v.\+'
 command UnHighlightEol match ErrorMsg //
-
 
 
