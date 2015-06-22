@@ -37,6 +37,7 @@ set backspace=indent,eol,start
 
 set background=dark
 colorscheme solarized
+syntax on
 set hlsearch
 set autowrite
 
