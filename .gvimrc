@@ -7,3 +7,7 @@ else
 set guifont=DejaVu_Sans_Mono:h11:cANSI
 endif
 
+
+set guioptions -=m 
+set guioptions -=T
+

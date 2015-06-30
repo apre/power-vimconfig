@@ -63,3 +63,7 @@ command HighLightEol match ErrorMsg '\%>80v.\+'
 command UnHighlightEol match ErrorMsg //
 
 
+
+
+:autocmd FileType mail :nmap <F8> :w<CR>:!aspell -e -c %<CR>:e<CR>
+:set spell spelllang=en_en,fr_fr
